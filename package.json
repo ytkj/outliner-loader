@@ -1,0 +1,27 @@
+{
+  "name": "outliner-loader",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ytkj/outliner-loader.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ytkj/outliner-loader/issues"
+  },
+  "homepage": "https://github.com/ytkj/outliner-loader#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.3.0"
+  },
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "loader-utils": "^1.1.0"
+  }
+}
