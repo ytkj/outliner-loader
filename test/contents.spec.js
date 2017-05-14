@@ -143,10 +143,11 @@ describe('contents.js', () => {
         let $;
 
         beforeEach(() => {
-            $ = cheerio.load(`<div id="toc-outlet">${contents}</div>`, { xmlMode: true });
+            $ = cheerio.load(`<div id="toc-outlet">${contents}</div>`, { xmlMode: true, decodeEntities: false });
         });
 
         it('1st level: # of items', () => {
+            console.log(contents);
             expect($('#toc-outlet>ul>li').length).to.equals(2);
         });
 
