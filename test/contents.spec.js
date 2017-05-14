@@ -147,7 +147,6 @@ describe('contents.js', () => {
         });
 
         it('1st level: # of items', () => {
-            console.log(contents);
             expect($('#toc-outlet>ul>li').length).to.equals(2);
         });
 
