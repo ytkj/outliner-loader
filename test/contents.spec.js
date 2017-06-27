@@ -83,7 +83,7 @@ describe('contents.js', () => {
         let $;
 
         beforeEach(() => {
-            $ = cheerio.load(`<div id="contents">${contents}</div>`, {xmlMode: true});
+            $ = cheerio.load(`<div id="contents">${contents}</div>`, {xmlMode: false});
         });
 
         it('1st level: # of items', () => {
@@ -143,7 +143,7 @@ describe('contents.js', () => {
         let $;
 
         beforeEach(() => {
-            $ = cheerio.load(`<div id="toc-outlet">${contents}</div>`, { xmlMode: true, decodeEntities: false });
+            $ = cheerio.load(`<div id="toc-outlet">${contents}</div>`, { xmlMode: false, decodeEntities: false });
         });
 
         it('1st level: # of items', () => {

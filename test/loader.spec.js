@@ -118,7 +118,7 @@ describe('loader.js', () => {
         let $;
 
         beforeEach(() => {
-            $ = cheerio.load(output, {xmlMode: true, decodeEntities: false });
+            $ = cheerio.load(output, {xmlMode: false, decodeEntities: false });
         });
 
         it('table of contents is created', () => {
