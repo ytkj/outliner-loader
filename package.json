@@ -18,11 +18,11 @@
   "homepage": "https://github.com/ytkj/outliner-loader#readme",
   "devDependencies": {
     "chai": "3.5.0",
-    "mocha": "3.3.0"
+    "mocha": "^6.2.2"
   },
   "dependencies": {
     "cheerio": "0.22.0",
     "loader-utils": "1.1.0",
-    "lodash.merge": "4.6.0"
+    "lodash.merge": "^4.6.2"
   }
 }
